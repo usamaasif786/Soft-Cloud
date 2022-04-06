@@ -48,8 +48,8 @@ function Services() {
     <>
       <header className='services-header'>
         <div className='row d-flex justify-content-center  '>
-          <div className='col-9 mt-4 p-2 align-items-center'>
-            <div className='row'>
+          <div className='col-11 col-md-9 mt-4 p-2 align-items-center'>
+            <div className='row d-flex align-items-center'>
               {/* <h2 className='col-4 d-flex d-none d-sm-block justify-content-start'>Soft Kloud</h2> */}
               <h2 className='col-4 d-flex d-none d-sm-block justify-content-start' to="/">
                 <Link className="nav-link" style={{color: 'white'}} to="/">Soft Kloud</Link>
@@ -57,16 +57,16 @@ function Services() {
               {(toggleMenu || screenWidth > 576) &&(
               <ul className="col list m-0 p-0 nav justify-content-end">
                 <li className="nav-item">
-                  <Link className="nav-link" aria-current="page" to="/">HOME</Link>
+                  <Link className="nav-link bold" aria-current="page" to="/">HOME</Link>
                 </li>
                 <li className="nav-item">
-                  <Link  className="nav-link" to="/about">ABOUT</Link>
+                  <Link  className="nav-link bold" to="/about">ABOUT</Link>
                 </li>
                 <li className="nav-item">
-                  <Link  className="nav-link active" to="/services">SERVICES</Link>
+                  <Link  className="nav-link bold active" to="/services">SERVICES</Link>
                 </li>
                 <li className="nav-item">
-                  <Link  className="nav-link" to="/contact">CONTACT</Link>
+                  <Link  className="nav-link bold" to="/contact">CONTACT</Link>
                 </li>
               </ul>)}
               <button onClick={toggleNav} className="nav-btn">

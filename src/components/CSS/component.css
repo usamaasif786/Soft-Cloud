@@ -9,8 +9,8 @@ p {
   margin: 0px;
   padding: 0px;
 }
-header img{
-  width: 20px;
+.header-img{
+  /* width: 20px; */
 }
 header{
   background-size: cover;
@@ -39,7 +39,10 @@ header h1,
 header p {
   color: white;
 }
-
+.bold{
+  font-weight: bold;
+  letter-spacing: .5px;
+}
 .nav-link {
   color: rgb(206, 206, 206);
   font-size: 100%;
@@ -258,8 +261,8 @@ textarea {
 /* ///////////////////   Footer ///////////////// */
 footer {
   background-image: linear-gradient(
-      rgba(97, 86, 153, 0.801),
-      rgba(102, 91, 155, 0.5)
+      rgba(83, 83, 83, 0.85),
+      rgba(83, 83, 83, 0.85)
     ),
     url(../Images/footer.jpg);
   background-size: cover;

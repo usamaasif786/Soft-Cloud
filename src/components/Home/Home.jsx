@@ -1,7 +1,3 @@
-// import React from 'react';
-// import header_logo from '../Images/header-logo.png'
-// import header_logo from '../Images/header(1)-logo.jpg'
-
 import Section_1 from '../Images/section_1.png'
 import section_2 from '../Images/section_2.png'
 import section_5_1 from '../Images/section_5_1.png'
@@ -44,27 +40,24 @@ function Home() {
     <>
       <header className='home-header'>
         <div className='row d-flex justify-content-center  '>
-          <div className='col-9 mt-4 p-2 align-items-center'>
-            <div className='row'>
-              {/* <h2 className='col-4 d-flex d-none d-sm-block justify-content-start' to="/">Soft Kloud</h2> */}
+          <div className='col-12 col-md-9 mt-4 p-2 '>
+            <div className='row d-flex align-items-center'>
               <h2 className='col-4 d-flex d-none d-sm-block justify-content-start' to="/">
                 <Link className="nav-link" style={{color: 'white'}} to="/">Soft Kloud</Link>
               </h2>
-              {/* <Link className="nav-link active" aria-current="page" to="/">HOME</Link> */}
-              {/* <img src={header_logo} className="img-fluid" style={{width:'200px', height:'200px' }} alt="" /> */}
               {(toggleMenu || screenWidth > 576) &&(
               <ul className="col list m-0 p-0 nav justify-content-end">
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" to="/">HOME</Link>
+                  <Link className="nav-link bold active" aria-current="page" to="/">HOME</Link>
                 </li>
                 <li className="nav-item">
-                  <Link  className="nav-link" to="/about">ABOUT</Link>
+                  <Link  className="nav-link bold" to="/about">ABOUT</Link>
                 </li>
                 <li className="nav-item">
-                  <Link  className="nav-link" to="/services">SERVICES</Link>
+                  <Link  className="nav-link bold" to="/services">SERVICES</Link>
                 </li>
                 <li className="nav-item">
-                  <Link  className="nav-link" to="/contact">CONTACT</Link>
+                  <Link  className="nav-link bold" to="/contact">CONTACT</Link>
                 </li>
               </ul>)}
               <button onClick={toggleNav} className="nav-btn">
