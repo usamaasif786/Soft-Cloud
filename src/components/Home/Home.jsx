@@ -235,7 +235,7 @@ function Home() {
             <div className='col-4 section-6-2'>
               <h4 className='d-none d-md-block'>Request a Quote</h4>
               <p className='d-none d-md-block'>Would you like to start a project with us? We are just one click away from hearing you, Do not wait </p>
-              <p className='mt-4 mb-4 d-none d-md-block'>Email: <span className='font-weight-bold'>info@pikessoft.com</span></p>
+              <p className='mt-4 mb-4 d-none d-md-block'>Email: <span className='bold'>info@pikessoft.com</span></p>
               <h5>Reviewed on</h5>
               <img className='img-fluid mt-4' width={150} src={section_6_1} alt="" /> <br />
               <img className='img-fluid mt-4' width={100} src={section_6_2} alt="" />

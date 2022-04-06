@@ -198,7 +198,7 @@ function Services() {
             <div className='row'>
             <div className="col-12 col-md services-s2-2 m-2 p-4 d-flex flex-column bd-highlight ">
               <div className="mb-auto text-center p-2 bd-highlight">
-                <img className='img-fluid mb-4' width={200} src={services_s2_4  } alt="" />
+                <img className='img-fluid mb-4' width={200} src={services_s2_4} alt="" />
               </div>
               <div className="p-2 bd-highlight">
                 <h5 className='justify'>Web Development</h5>
