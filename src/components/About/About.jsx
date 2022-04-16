@@ -48,7 +48,7 @@ function About() {
     <>
       <header className='about-header'>
         <div className='row d-flex justify-content-center  '>
-          <div className='col-11 col-md-9 mt-4 p-2'>
+          <div className='col col-sm-12 col-md-9 mt-4 p-2'>
             <div className='row d-flex align-items-center'>
               <h2 className='col-4 d-flex d-none d-sm-block justify-content-start' to="/">
                 <Link className="nav-link" style={{color: 'white'}} to="/">Soft Kloud</Link>
@@ -108,14 +108,14 @@ function About() {
         
          {/* ////// Section 2 //// */}
         
-      <div className='about-s2'>
-        <div className='row d-flex justify-content-center'>
-          <div className='col-12'>
+      <div className='about-s2 row d-flex justify-content-center'>
+        {/* <div className='row d-flex justify-content-center'> */}
+          <div className='col-12 mt-4 mb-4'>
             <div className='row d-flex justify-content-between'>
               <div className='col-1 align-self-start'>
                 <img className='img-fluid d-none d-md-block' src={about_s2_left} alt="" />
               </div>
-              <div className='col-12 col-md-6 about-s2-1 justify'>
+              <div className='col-12 col-md-6 about-s2-1  justify'>
                 <h4>What we do</h4>
                 <ul className='mt-4'>
                   <li>UI UX Design</li>
@@ -137,16 +137,16 @@ function About() {
             </div>
           </div>
          
-        </div>
+        {/* </div> */}
       </div>
 
          {/* ////// Section 3 //// */}
 
-      <div className='about-s3 section-4 mt-4 mb-4 row d-flex justify-content-center '>
-        <div className='col-10 section-4 mt-4 mb-4 p-4  section-4-1'>
+      <div className='about-s3 section-4  row d-flex justify-content-center '>
+        <div className='col-10 section-4 m-t-b p-4  section-4-1'>
           <div className='row p-3 d-flex align-items-center'>
             <div className='col-12 col-md mt-4 mb-4 p-2'>
-              <p>Our Company Achievements</p>
+              <h4>Our Company Achievements</h4>
             </div>
             <div className='col-12 col-md mt-4 mb-4 p-2'>
               <h2>127</h2>
@@ -208,8 +208,9 @@ function About() {
       </div>
 
          {/* ////// Section 1 //// */}
-
+      <div style={{backgroundColor: 'rgb(243, 242, 242)'}}>
      <Contact_Menu/>
+      </div>
     </>
   )
 }

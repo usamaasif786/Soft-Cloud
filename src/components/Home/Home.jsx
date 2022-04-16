@@ -4,6 +4,7 @@ import section_5_1 from '../Images/section_5_1.png'
 import section_5_2 from '../Images/section_5_2.png'
 import section_6_1 from "../Images/section_6_1.png";
 import section_6_2 from "../Images/section_6_2.png";
+import slider_1 from "../Images/slider_1.png"
 import "../CSS/component.css"
 
 import React, {useState, useEffect} from 'react'
@@ -13,6 +14,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import { Carousel } from 'react-bootstrap'
 
 function Home() {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -36,11 +38,16 @@ function Home() {
     }
 
   }, [])
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
   return (
     <>
       <header className='home-header'>
         <div className='row d-flex justify-content-center  '>
-          <div className='col-12 col-md-9 mt-4 p-2 '>
+          <div className='col col-sm-12 col-md-9  mt-4 p-2 '>
             <div className='row d-flex align-items-center'>
               <h2 className='col-4 d-flex d-none d-sm-block justify-content-start' to="/">
                 <Link className="nav-link" style={{color: 'white'}} to="/">Soft Kloud</Link>
@@ -48,7 +55,7 @@ function Home() {
               {(toggleMenu || screenWidth > 576) &&(
               <ul className="col list m-0 p-0 nav justify-content-end">
                 <li className="nav-item">
-                  <Link className="nav-link bold active" aria-current="page" to="/">HOME</Link>
+                  <Link className="nav-link bold active"  aria-current="page" to="/">HOME</Link>
                 </li>
                 <li className="nav-item">
                   <Link  className="nav-link bold" to="/about">ABOUT</Link>
@@ -80,8 +87,8 @@ function Home() {
 
           {/* //// Section -1 ///////// */}
 
-      <div className='section-1 row d-flex justify-content-center '>
-        <div className='col-9'>
+      <div className='section-1 home row d-flex justify-content-center '>
+        <div className='col-9 m-t-b'>
           <div className='row d-flex justify-content-between'>
             <div className='col-12 col-md-5  justify'>
             <h4 className='black'>Why Choose Us?</h4>
@@ -108,8 +115,8 @@ function Home() {
             <div className='col-12 col-md p-2'> 
               <div className='row'>
                 <div className='col section-2-1 section-2-0'>
-                  <h4>Meet the user</h4>
-                  <ul>
+                  <h6>Meet the user</h6>
+                  <ul className='p-0'>
                     <li>User demographics</li>
                     <li>Define user goals</li>
                     <li>Define user challenges</li>
@@ -121,8 +128,8 @@ function Home() {
             <div className='col-12 col-md p-2'> 
               <div className='row'>
                 <div className='col section-2-2 section-2-0'>
-                <h4>Be the user</h4>
-                  <ul>
+                <h6>Be the user</h6>
+                  <ul className='p-0'>
                     <li>User personas</li>
                     <li>User scenarios</li>
                     <li>User testing</li>
@@ -134,8 +141,8 @@ function Home() {
             <div className='col-12 col-md p-2'> 
               <div className='row'>
                 <div className='col section-2-3 section-2-0'>
-                <h4>Make it simple</h4>
-                  <ul>
+                <h6>Make it simple</h6>
+                  <ul className='p-0'>
                     <li>Wire-frames</li>
                     <li>Mood-board</li>
                     <li>Mock-ups</li>
@@ -147,8 +154,8 @@ function Home() {
             <div className='col-12 col-md p-2'> 
               <div className='row'>
                 <div className='col section-2-4 section-2-0'>
-                <h4>Data don’t lie</h4>
-                  <ul>
+                <h6>Data don’t lie</h6>
+                  <ul className='p-0'>
                     <li>Usability testings</li>
                     <li>Review metrics</li>
                     <li>Track usage</li>
@@ -160,8 +167,8 @@ function Home() {
             <div className='col-12 col-md p-2'> 
               <div className='row'>
                 <div className='col section-2-5 section-2-0'>
-                <h4>Stick to the design</h4>
-                  <ul>
+                <h6>Stick to the design</h6>
+                  <ul className='p-0'>
                     <li>Usability testings</li>
                     <li>Review metrics</li>
                     <li>Track usage</li>
@@ -178,10 +185,10 @@ function Home() {
           {/* //// Section -4 ///////// */}
       
       <div className='section-4 row d-flex justify-content-center '>
-        <div className='col-10 col-md-8 p-2 section-4-1'>
+        <div className='col-10 col-md-8 m-t-b p-2 section-4-1'>
           <div className='row d-flex align-items-center'>
             <div className='col-12 col-md mt-4 mb-4 p-2'>
-              <p>Our Company Achievements</p>
+              <h4>Our Company Achievements</h4>
             </div>
             <div className='col-12 col-md mt-4 mb-4 p-2'>
               <h2>57</h2>
@@ -210,10 +217,10 @@ function Home() {
           <h3 className='mb-4 text-center'>Featured Work</h3>
           <div className='row text-center'>
               <div className='col-12 col-md-6'>
-                  <img className='img-fluid mt-4 mb-4' src={section_5_1} alt="" />
+                  <img className='img-fluid mt-4 mb-4' style={{cursor: "pointer"}} src={section_5_1} alt="" />
               </div>
               <div className='col-12 col-md-6'>
-                  <img className='img-fluid mt-4 mb-4' src={section_5_2} alt="" />
+                  <img className='img-fluid mt-4 mb-4' style={{cursor: "pointer"}} src={section_5_2} alt="" />
               </div>
           </div>
         </div>
@@ -221,8 +228,8 @@ function Home() {
 
           {/* //// Section -6 ///////// */}
 
-      <div className='section-6 row p-4 mt-4 d-flex justify-content-center '>
-        <div className='col-10'>
+      <div className='section-6 row d-flex justify-content-center justify'>
+        <div className='col-10 p-4 mt-4 mb-4'>
           <div className='row d-flex justify-content-between'>
             <div className='col-12 col-md-6 section-6-1'>
               <h4>Contact Us</h4>
@@ -232,7 +239,7 @@ function Home() {
               <textarea className='mt-4' name="message" placeholder="Your message"></textarea>
               <button className='btn btn-danger mt-4 mb-4 p-3'>SUBMIT REQUEST</button>
             </div>
-            <div className='col-4 section-6-2'>
+            <div className='col-5 section-6-2'>
               <h4 className='d-none d-md-block'>Request a Quote</h4>
               <p className='d-none d-md-block'>Would you like to start a project with us? We are just one click away from hearing you, Do not wait </p>
               <p className='mt-4 mb-4 d-none d-md-block'>Email: <span className='bold'>info@pikessoft.com</span></p>
@@ -245,29 +252,44 @@ function Home() {
       </div>
 
           {/* //// Section -7 ///////// */}
-      <div  className='section-7'>
-        <h3 className='text-center'>Success Stories</h3>
+
+{/* ////////////////////////////////////////// */}
+
+   <div className='section-7'>
+      <h3 className='text-center p-4'>Success Stories</h3>
+      <Carousel activeIndex={index} onSelect={handleSelect} className='text-center pb-4'>
+      <Carousel.Item>
+      {/* <h3 className='text-center p-4'>Success Stories</h3> */}
         <div className='row d-flex justify-content-center'>
           <div className='col-7'>
-            <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-              <div className="carousel-inner text-center">
-                <div className="carousel-item active">
-                  <p>"I was referred to Pikes Soft by a Series C company and I have been truly impressed. They <br />  recruit the top university graduates which is on display with their clear communication and <br /> their high quality code."</p>
-                  <h6>Nick Piscotty - CEO TruePartner</h6>
-                </div>
-                <div className="carousel-item">
-                  <p>"I was referred to Pikes Soft by a Series C company and I have been truly impressed. They <br />  recruit the top university graduates which is on display with their clear communication and <br /> their high quality code."</p>
-                  <h6>Nick Piscotty - CEO TruePartner</h6>
-                </div>
-                <div className="carousel-item">
-                  <p>"I was referred to Pikes Soft by a Series C company and I have been truly impressed. They <br />  recruit the top university graduates which is on display with their clear communication and <br /> their high quality code."</p>
-                  <h6>Nick Piscotty - CEO TruePartner</h6>
-                </div>
-              </div>
-            </div>
+            <p >"I was referred to Pikes Soft by a Series C company and I have been truly impressed. They recruit the top university graduates which is on display with their clear communication and their high quality code."</p>
+            <h6 >Nick Piscotty - CEO dev_subhan</h6>
           </div>
         </div>
-      </div>
+      </Carousel.Item>
+      <Carousel.Item >
+        {/* <h3 className='text-center p-4'>Success </h3> */}
+        <div className='row d-flex justify-content-center'>
+          <div className='col-7'>
+            <p>"I was referred to Pikes Soft by a Series C company and I have been truly impressed. They recruit the top university graduates which is on display with their clear communication and their high quality code."</p>
+            <h6>Nick Piscotty - CEO dev_usama</h6>
+          </div>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+      {/* <h3 className='text-center p-4'>Success Stories</h3> */}
+        <div className='row d-flex justify-content-center'>
+          <div className='col-7'>
+            <p>"I was referred to Pikes Soft by a Series C company and I have been truly impressed. They recruit the top university graduates which is on display with their clear communication and their high quality code."</p>
+            <h6>Nick Piscotty - CEO dev_ahmad</h6>
+          </div>
+        </div>
+      </Carousel.Item>
+    </Carousel>
+   </div>
+
+          {/* ////////////////////////////////////// */}
+     
           </>
   )
 }

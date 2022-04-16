@@ -48,9 +48,8 @@ function Services() {
     <>
       <header className='services-header'>
         <div className='row d-flex justify-content-center  '>
-          <div className='col-11 col-md-9 mt-4 p-2 align-items-center'>
+          <div className='col col-sm-12 col-md-9 mt-4 p-2 align-items-center'>
             <div className='row d-flex align-items-center'>
-              {/* <h2 className='col-4 d-flex d-none d-sm-block justify-content-start'>Soft Kloud</h2> */}
               <h2 className='col-4 d-flex d-none d-sm-block justify-content-start' to="/">
                 <Link className="nav-link" style={{color: 'white'}} to="/">Soft Kloud</Link>
               </h2>
@@ -90,7 +89,7 @@ function Services() {
 
       <div className='services-s1 '>
         <div className='row'>
-          <h3 className='mt-4'>Software Development</h3>
+          <h3 className='mt-4 text-center'>Software Development</h3>
           <div className='row d-flex justify-content-center'>
             <div className='col-11 col-md-7 mt-2'>
              <p className='text-center'>We provide software development, maintenance, support, deployment and implementation services as well as Web Development and Mobile Apps for both Android and iOS.</p>
@@ -144,7 +143,7 @@ function Services() {
 
       <div className='services-s2'>
         <div className='row'>
-          <h3 className='mt-4'>What We Offer</h3>
+          <h3 className='mt-4 text-center'>What We Offer</h3>
           <div className='row d-flex justify-content-center'>
             <div className='col-11 col-md-7 mt-2'>
              <p className='text-center'>Our team is trained to solve problems and provide innovative solutions tailored carefully to meet client needs.</p>
@@ -238,7 +237,7 @@ function Services() {
 
       <div className='services-s3 '>
         <div className='row'>
-          <h3 className='mt-4'>Emerging Fields</h3>
+          <h3 className='mt-4 text-center'>Emerging Fields</h3>
           <div className='row d-flex justify-content-center'>
             <div className='col-11 col-md-7 mt-2'>
              <p className='text-center'>Our team is trained to solve problems and provide innovative solutions tailored carefully to meet client needs.</p>

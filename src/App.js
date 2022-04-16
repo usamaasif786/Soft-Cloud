@@ -4,7 +4,7 @@ import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+// import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">

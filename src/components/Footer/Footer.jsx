@@ -17,9 +17,7 @@ const Footer = () => {
           <div className='col-11 mt-4 '>
             <div className='row d-flex justify-content-around'>
               <div className='col-12 col-md-4 justify'>
-                {/* <h1 style={{color: 'white'}}>Soft Kloud</h1> */}
-                {/* <img scr={header_logo} className="img-fluid" style={{width: '120px'}} alt="" /> */}
-                <img className='img-fluid mt-4' style={{width: '150px'}} src={header_logo} alt="" />
+               <img className='img-fluid mt-4' style={{width: '150px'}} src={header_logo} alt="" />
                 <p className='mt-4'>We Provide ourselves in our ability to deliver our client’s vision. Customer satisfaction is our number one priority. We understand that our work is our expression to the outside world and we make sure that we produce high-quality solutions.</p>
               </div>
               <div className='col-12 col-md-3 col-lg-3 justify'>
@@ -28,6 +26,7 @@ const Footer = () => {
                 <h5><Link className="nav-link p-0" style={{color: 'white'}} to="About">About</Link></h5>
                 <h5><Link className="nav-link p-0" style={{color: 'white'}} to="Services">Services</Link></h5>
                 <h5><Link className="nav-link p-0" style={{color: 'white'}} to="Contact">Contact</Link></h5>
+                {/* <h5><Link className="nav-link p-0" style={{color: 'white'}} to="Booking">Booking</Link></h5> */}
               </div>
               <div className='col-12 col-md-3 col-lg-3 justify'>
                 <h2 className='mb-4 mt-4' style={{color: 'rgb(128, 201, 230)'}}>Get In Touch</h2>

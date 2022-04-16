@@ -35,7 +35,7 @@ function Contact() {
     <>
       <header className="contact-header">
         <div className='row d-flex justify-content-center  '>
-          <div className='col-11 col-md-9 mt-4 p-2 align-items-center'>
+          <div className='col col-sm-12 col-md-9 mt-4 p-2 align-items-center'>
             <div className='row d-flex align-items-center'>
               <h2 className='col-4 d-flex d-none d-sm-block justify-content-start' to="/">
                 <Link className="nav-link" style={{color: 'white'}} to="/">Soft Kloud</Link>

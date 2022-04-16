@@ -4,13 +4,9 @@
   font-size: 16.5px;
   color: #4b4f58;
   max-width: 100%;
-}
-p {
-  margin: 0px;
-  padding: 0px;
-}
-.header-img{
-  /* width: 20px; */
+  word-spacing: 0.5px;
+  letter-spacing: 0.5px;
+
 }
 header{
   background-size: cover;
@@ -114,25 +110,18 @@ li,
 ul {
   text-align: left;
 }
-.section-1 {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  word-spacing: 1.5px;
-  color: rgb(236, 230, 230);
+.m-t-b{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-/* ///////////////////  Home - Section 2 ///////////////// */
-.section-2 h4 {
-  font-size: 16px;
-}
-.section-2 {
-  font-size: 14px;
+.section-2,
+.section-5,
+.section-7,
+.about-s1,
+.about-s3,
+.services-s1,
+.services-s3 {
   background-color: rgb(243, 242, 242);
-}
-.section-2 h4,
-.section-2 li,
-.section-2 ul {
-  padding: 0px;
-  text-align: left;
 }
 .section-2 li {
   margin-left: 16px;
@@ -165,34 +154,18 @@ ul {
     0 6px 20px 0 rgba(109, 109, 109, 0.1);
   text-align: center;
 }
-.section-4-1 p {
-  word-spacing: 2px;
-  font-size: 150%;
-}
 .section-4 h2 {
   color: #31b5e9;
 }
-.section-4{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: white;
-}
-
 /* ///////////////////  Home - Section 5 ///////////////// */
-.section-5 {
-  background-color: rgb(243, 242, 242);
-}
 .section-5 img{
   width: 85%;
 }
 .section-5 img:hover{
   width: 100%;
-  transition: width 0.7s;
+  transition: width 0.8s;
 }
 /* ///////////////////  Home - Section 6  ///////////////// */
-.section-6 {
-  text-align: left;
-}
 .section-6 input,
 textarea {
   height: 50px;
@@ -205,20 +178,11 @@ textarea {
 .section-6 button {
   background-color: #0274be;
   border: none;
-  color: white;
 }
 textarea {
   height: 200px;
 }
 /* ///////////////////  About - Section 1 ///////////////// */
-.about-s1 {
-  background-color: rgb(243, 242, 242);
-}
-/* ///////////////////  About - Section 2 ///////////////// */
-.about-s2 {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
 .about-s2-1 {
   padding: 8%;
 }
@@ -236,26 +200,16 @@ textarea {
   border-style: solid;
   border-color: #cecece;
 }
-.services-s1 h3,
-.services-s2 h3,
-.services-s3 h3{
-  text-align: center;
-}
-.about-s3,
-.services-s1,
-.services-s3 {
-  background-color: rgb(243, 242, 242);
-}
 .services-s1-1:hover,
 .services-s3-1:hover,
 .services-s2-2:hover {
-  box-shadow: 15px 10px 13px #aaaaaa63;
+  box-shadow: 2px 2px 15px 10px #b3b2b263;
   border-width: 0px;
 }
 .services-s2-1:hover {
   background-color: #85c3db;
   color: white;
-  box-shadow: 15px 10px 13px #bbbbbb85;
+  box-shadow: 2px 2px 15px 10px #c6e5f1;
   border-width: 0px;
 }
 /* ///////////////////   Footer ///////////////// */
