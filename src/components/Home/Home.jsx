@@ -253,44 +253,36 @@ function Home() {
 
           {/* //// Section -7 ///////// */}
 
-{/* ////////////////////////////////////////// */}
-
-   <div className='section-7'>
-      <h3 className='text-center p-4'>Success Stories</h3>
-      <Carousel activeIndex={index} onSelect={handleSelect} className='text-center pb-4'>
-      <Carousel.Item>
-      {/* <h3 className='text-center p-4'>Success Stories</h3> */}
-        <div className='row d-flex justify-content-center'>
-          <div className='col-7'>
-            <p >"I was referred to Pikes Soft by a Series C company and I have been truly impressed. They recruit the top university graduates which is on display with their clear communication and their high quality code."</p>
-            <h6 >Nick Piscotty - CEO dev_subhan</h6>
-          </div>
-        </div>
-      </Carousel.Item>
-      <Carousel.Item >
-        {/* <h3 className='text-center p-4'>Success </h3> */}
-        <div className='row d-flex justify-content-center'>
-          <div className='col-7'>
-            <p>"I was referred to Pikes Soft by a Series C company and I have been truly impressed. They recruit the top university graduates which is on display with their clear communication and their high quality code."</p>
-            <h6>Nick Piscotty - CEO dev_usama</h6>
-          </div>
-        </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      {/* <h3 className='text-center p-4'>Success Stories</h3> */}
-        <div className='row d-flex justify-content-center'>
-          <div className='col-7'>
-            <p>"I was referred to Pikes Soft by a Series C company and I have been truly impressed. They recruit the top university graduates which is on display with their clear communication and their high quality code."</p>
-            <h6>Nick Piscotty - CEO dev_ahmad</h6>
-          </div>
-        </div>
-      </Carousel.Item>
-    </Carousel>
-   </div>
-
-          {/* ////////////////////////////////////// */}
-     
-          </>
+      <div className='section-7'>
+          <h3 className='text-center p-4'>Success Stories</h3>
+          <Carousel activeIndex={index} onSelect={handleSelect} className='text-center pb-4'>
+          <Carousel.Item>
+            <div className='row d-flex justify-content-center'>
+              <div className='col-7'>
+                <p >"I was referred to Soft Kloud by a Series C company and I have been truly impressed. They recruit the top university graduates which is on display with their clear communication and their high quality code."</p>
+                <h6 >Nick Piscotty - CEO dev_subhan</h6>
+              </div>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item >
+            <div className='row d-flex justify-content-center'>
+              <div className='col-7'>
+                <p>"I was referred to Soft Kloud by a Series C company and I have been truly impressed. They recruit the top university graduates which is on display with their clear communication and their high quality code."</p>
+                <h6>Nick Piscotty - CEO dev_usama</h6>
+              </div>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className='row d-flex justify-content-center'>
+              <div className='col-7'>
+                <p>"I was referred to Soft Kloud by a Series C company and I have been truly impressed. They recruit the top university graduates which is on display with their clear communication and their high quality code."</p>
+                <h6>Nick Piscotty - CEO dev_ahmad</h6>
+              </div>
+            </div>
+          </Carousel.Item>
+        </Carousel>
+      </div>     
+    </>
   )
 }
 export default Home
