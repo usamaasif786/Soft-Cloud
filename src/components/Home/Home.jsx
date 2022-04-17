@@ -4,7 +4,6 @@ import section_5_1 from '../Images/section_5_1.png'
 import section_5_2 from '../Images/section_5_2.png'
 import section_6_1 from "../Images/section_6_1.png";
 import section_6_2 from "../Images/section_6_2.png";
-import slider_1 from "../Images/slider_1.png"
 import "../CSS/component.css"
 
 import React, {useState, useEffect} from 'react'
