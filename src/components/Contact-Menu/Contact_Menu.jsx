@@ -10,7 +10,7 @@ const Contact_Menu = () => {
             <div className='col-12 col-md-5 mt-4 section-6-2'>
               <h4 className='mb-4'>Contact Us</h4>
               <p>Would you like to start a project with us? We are just one click away from hearing you, Do not wait </p>
-              <p>Email: <span className='bold'>softkloud@gmail.com</span></p>
+              <p className='mb-1'>Email: <span className='bold'>softkloud@gmail.com</span></p>
               <p className='mb-4'>Linkedin: <span className='bold'>Linkedin.com/company/softkloud</span></p>
               <img className='img-fluid d-none d-md-block' src={about_s5} alt="" />
             

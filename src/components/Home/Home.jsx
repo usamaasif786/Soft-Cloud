@@ -88,10 +88,10 @@ function Home() {
 
       <div className='section-1 home row d-flex justify-content-center '>
         <div className='col-9 m-t-b'>
-          <div className='row d-flex justify-content-between'>
-            <div className='col-12 col-md-5  justify'>
+          <div className='row d-flex justify-content-between '>
+            <div className='col-12 col-md-5 justify'>
             <h4 className='black'>Why Choose Us?</h4>
-            <p className='mt-4 mb-4 '>We are a full-service software house. Our clients ranges from public and private sectors including start-ups. What separates us from others is the flexibility of hiring us as a team of experts or individual developers. From the start, till the end, we have you covered. We provide our clients with successful solutions in UI/UX Design, Web Development and Mobile App development.</p>
+            <p className='mt-4 '>We are a full-service software house. Our clients ranges from public and private sectors including start-ups. What separates us from others is the flexibility of hiring us as a team of experts or individual developers. From the start, till the end, we have you covered. We provide our clients with successful solutions in UI/UX Design, Web Development and Mobile App development.</p>
             </div>
             <div className='col-5 d-none d-md-block'>
              <img className='img-fluid' src={Section_1} width={300} alt="Logo" />
@@ -257,7 +257,7 @@ function Home() {
           <Carousel activeIndex={index} onSelect={handleSelect} className='text-center pb-4'>
           <Carousel.Item>
             <div className='row d-flex justify-content-center'>
-              <div className='col-7'>
+              <div className='col-10 col-md-7 mb-4'>
                 <p >"I was referred to Soft Kloud by a Series C company and I have been truly impressed. They recruit the top university graduates which is on display with their clear communication and their high quality code."</p>
                 <h6 >Nick Piscotty - CEO dev_subhan</h6>
               </div>
@@ -265,7 +265,7 @@ function Home() {
           </Carousel.Item>
           <Carousel.Item >
             <div className='row d-flex justify-content-center'>
-              <div className='col-7'>
+              <div className='col-10 col-md-7 mb-4'>
                 <p>"I was referred to Soft Kloud by a Series C company and I have been truly impressed. They recruit the top university graduates which is on display with their clear communication and their high quality code."</p>
                 <h6>Nick Piscotty - CEO dev_usama</h6>
               </div>
@@ -273,7 +273,7 @@ function Home() {
           </Carousel.Item>
           <Carousel.Item>
             <div className='row d-flex justify-content-center'>
-              <div className='col-7'>
+              <div className='col-10 col-md-7 mb-4'>
                 <p>"I was referred to Soft Kloud by a Series C company and I have been truly impressed. They recruit the top university graduates which is on display with their clear communication and their high quality code."</p>
                 <h6>Nick Piscotty - CEO dev_ahmad</h6>
               </div>
