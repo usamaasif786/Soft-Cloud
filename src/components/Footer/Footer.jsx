@@ -77,7 +77,7 @@ const Footer = () => {
                 >
                   Get In Touch
                 </h2>
-                <h5>Phone: 0307-6570094</h5>
+                <h5>Phone: +92-307-6570094</h5>
                 <h5>softcloud@gmail.com</h5>
                 <h5>engusamaasif885@gmail.com</h5>
                 <h5>
