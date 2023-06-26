@@ -48,7 +48,7 @@ function About() {
                 to="/"
               >
                 <Link className="nav-link" style={{ color: "white" }} to="/">
-                  Soft Kloud
+                  Soft Cloud
                 </Link>
               </h2>
               {(toggleMenu || screenWidth > 576) && (
@@ -209,7 +209,7 @@ function About() {
       {/* ////// Section 4 //// */}
 
       <div className="about-s4 mb-4">
-        <h3 className="mt-4 text-center">Life at Soft Kloud</h3>
+        <h3 className="mt-4 text-center">Life at Soft Cloud</h3>
         <div className="row d-flex justify-content-center">
           <div className="col-11 col-md-10 mt-4">
             <div className="row d-flex justify-content-between">

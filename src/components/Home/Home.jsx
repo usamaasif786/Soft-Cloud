@@ -45,7 +45,7 @@ function Home() {
                 to="/"
               >
                 <Link className="nav-link" style={{ color: "white" }} to="/">
-                  Soft Kloud
+                  Soft Cloud
                 </Link>
               </h2>
               {(toggleMenu || screenWidth > 576) && (
@@ -351,7 +351,7 @@ function Home() {
             <div className="row d-flex justify-content-center">
               <div className="col-10 col-md-7 mb-4">
                 <p>
-                  "I was referred to Soft Kloud by a Series C company and I have
+                  "I was referred to Soft Cloud by a Series C company and I have
                   been truly impressed. They recruit the top university
                   graduates which is on display with their clear communication
                   and their high quality code."
@@ -364,7 +364,7 @@ function Home() {
             <div className="row d-flex justify-content-center">
               <div className="col-10 col-md-7 mb-4">
                 <p>
-                  "I was referred to Soft Kloud by a Series C company and I have
+                  "I was referred to Soft Cloud by a Series C company and I have
                   been truly impressed. They recruit the top university
                   graduates which is on display with their clear communication
                   and their high quality code."
@@ -377,7 +377,7 @@ function Home() {
             <div className="row d-flex justify-content-center">
               <div className="col-10 col-md-7 mb-4">
                 <p>
-                  "I was referred to Soft Kloud by a Series C company and I have
+                  "I was referred to Soft Cloud by a Series C company and I have
                   been truly impressed. They recruit the top university
                   graduates which is on display with their clear communication
                   and their high quality code."

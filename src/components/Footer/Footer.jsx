@@ -78,7 +78,7 @@ const Footer = () => {
                   Get In Touch
                 </h2>
                 <h5>Phone: 0307-6570094</h5>
-                <h5>softkloud@gmail.com</h5>
+                <h5>softcloud@gmail.com</h5>
                 <h5>engusamaasif885@gmail.com</h5>
                 <h5>
                   Address: Madina Boys Hostel, Block C 1 Phase 1 Johar Town,
@@ -90,7 +90,7 @@ const Footer = () => {
         </div>
         <div className="p-3">
           <p className="text-center" style={{ fontWeight: "bold" }}>
-            Copyright © {new Date().getFullYear()} SoftKloud
+            Copyright © {new Date().getFullYear()} SoftCloud
           </p>
         </div>
       </footer>

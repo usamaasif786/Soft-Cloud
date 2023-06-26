@@ -16,7 +16,7 @@ const Contact_Menu = () => {
                 away from hearing you, Do not wait{" "}
               </p>
               <p className="mb-1">
-                Email: <span className="bold">softkloud@gmail.com</span>
+                Email: <span className="bold">softkcloud@gmail.com</span>
               </p>
               <p className="mb-1">
                 Linkedin:{" "}
