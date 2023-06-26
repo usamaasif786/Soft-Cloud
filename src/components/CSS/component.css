@@ -6,9 +6,8 @@
   max-width: 100%;
   word-spacing: 0.5px;
   letter-spacing: 0.5px;
-
 }
-header{
+header {
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -35,16 +34,16 @@ header h1,
 header p {
   color: white;
 }
-.bold{
+.bold {
   font-weight: bold;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 .nav-link {
   color: rgb(206, 206, 206);
   font-size: 100%;
 }
 
-header .nav-link:hover{
+header .nav-link:hover {
   color: white;
   transition: 0.5s;
 }
@@ -79,29 +78,28 @@ header .nav-link:hover{
   border: none;
   font-size: 18px;
 }
-header i{
+header i {
   color: white;
   font-size: 30px;
 }
-@media screen and (max-width: 576px){
-
+@media screen and (max-width: 576px) {
   .list {
-      flex-direction: column;
-      width: 100%;
+    flex-direction: column;
+    width: 100%;
   }
-  .items:nth-child(1){
-      border-top: 1px solid rgba(255, 255, 255, 0.555);
-      margin-top: 50px;
+  .items:nth-child(1) {
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    margin-top: 50px;
   }
   .items {
-      width: 100%;
-      border-top: 1px solid rgba(255, 255, 255, 0.555);
-      text-align: left;
-      margin-right: 0px;
-      padding: 10px 0;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    text-align: left;
+    margin-right: 0px;
+    padding: 10px 0;
   }
   .nav-btn {
-      display: block;
+    display: block;
   }
 }
 /* ///////////////////  Home - Section 1  ///////////////// */
@@ -110,7 +108,7 @@ li,
 ul {
   text-align: left;
 }
-.m-t-b{
+.m-t-b {
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -126,13 +124,15 @@ ul {
 .section-2 li {
   margin-left: 16px;
 }
-.section-2-0:hover {
+/* .section-2-0 {
   border-style: solid;
   border-width: 2px;
-  padding: 10px;
-  border-radius: 5px;
-}
-.section-2-1:hover {
+  padding: 2px;
+  margin: 2px;
+  border-radius: 5px; 
+  margin-left: 15px;
+} */
+/* .section-2-1:hover {
   border-color: #31b5e9;
 }
 .section-2-2:hover {
@@ -146,7 +146,7 @@ ul {
 }
 .section-2-5:hover {
   border-color: #242a56;
-}
+} */
 
 /* ///////////////////  Home - Section 4  ///////////////// */
 .section-4-1 {
@@ -158,10 +158,10 @@ ul {
   color: #31b5e9;
 }
 /* ///////////////////  Home - Section 5 ///////////////// */
-.section-5 img{
+.section-5 img {
   width: 85%;
 }
-.section-5 img:hover{
+.section-5 img:hover {
   width: 100%;
   transition: width 0.8s;
 }
@@ -173,7 +173,6 @@ textarea {
   border-color: #eaeaea;
   width: 100%;
   padding: 12px;
-
 }
 .section-6 button {
   background-color: #0274be;
