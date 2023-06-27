@@ -45,7 +45,7 @@ function Home() {
                 to="/"
               >
                 <Link className="nav-link" style={{ color: "white" }} to="/">
-                  Soft Cloud
+                  SoftCloud
                 </Link>
               </h2>
               {(toggleMenu || screenWidth > 576) && (
