@@ -7,7 +7,8 @@ import section_6_2 from "../Images/section_6_2.png";
 import "../CSS/component.css";
 
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Carousel } from "react-bootstrap";
 
 function Home() {

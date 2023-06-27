@@ -1,5 +1,5 @@
 // import React from 'react';
-import Contact_Menu from "../Contact-Menu/Contact_Menu";
+import ContactMenu from "../Contact-Menu/Contact_Menu";
 import about_s1_1 from "../Images/about_s1_1.png";
 import about_s1_2 from "../Images/about_s1_2.png";
 import about_s2_left from "../Images/about_s2_l.png";
@@ -16,7 +16,8 @@ import about_s4_7 from "../Images/about_s4_7.jpg";
 import about_s4_8 from "../Images/about_s4_8.jpg";
 import "../CSS/component.css";
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function About() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -251,7 +252,7 @@ function About() {
 
       {/* ////// Section 1 //// */}
       <div style={{ backgroundColor: "rgb(243, 242, 242)" }}>
-        <Contact_Menu />
+        <ContactMenu />
       </div>
     </>
   );

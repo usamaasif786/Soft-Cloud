@@ -1,7 +1,7 @@
 import React from "react";
 import about_s5 from "../Images/about_s5.png";
 import "../CSS/component.css";
-const Contact_Menu = () => {
+const ContactMenu = () => {
   const linkedinUrl = "https://www.linkedin.com/in/usamaasif786";
   const gitHubUrl = "https://github.com/usamaasif786";
   return (
@@ -16,7 +16,7 @@ const Contact_Menu = () => {
                 away from hearing you, Do not wait{" "}
               </p>
               <p className="mb-1">
-                Email: <span className="bold">softkcloud@gmail.com</span>
+                Email: <span className="bold">softcloud@gmail.com</span>
               </p>
               <p className="mb-1">
                 Linkedin:{" "}
@@ -75,4 +75,4 @@ const Contact_Menu = () => {
     </>
   );
 };
-export default Contact_Menu;
+export default ContactMenu;

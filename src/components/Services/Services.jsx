@@ -15,7 +15,8 @@ import services_s3_3 from "../Images/services_s3_3.jpg";
 import "../CSS/component.css";
 
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Services() {
   const [toggleMenu, setToggleMenu] = useState(false);

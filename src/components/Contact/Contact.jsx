@@ -1,8 +1,9 @@
 // import React from 'react';
-import Contact_Menu from "../Contact-Menu/Contact_Menu";
+import ContactMenu from "../Contact-Menu/Contact_Menu";
 
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Contact() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -82,7 +83,7 @@ function Contact() {
         </div>
       </header>
 
-      <Contact_Menu />
+      <ContactMenu />
     </>
   );
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import header_logo from "../Images/header-logo.png";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "../CSS/component.css";
 const Footer = () => {
@@ -97,4 +98,5 @@ const Footer = () => {
     </>
   );
 };
+
 export default Footer;
