@@ -1,11 +1,26 @@
 import React from "react";
 import header_logo from "../Images/header-logo.png";
-
-// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { animateScroll as scroll } from "react-scroll";
 
 import "../CSS/component.css";
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 const Footer = () => {
+  const handleFooterLogoClick = () => {
+    scroll.scrollToTop({
+      smooth: true,
+      duration: 500,
+    });
+  };
+  const handleQuickLinkClick = (section) => {
+    scroll.scrollTo(section, {
+      smooth: true,
+      duration: 500,
+      offset: -70,
+    });
+  };
+
   return (
     <>
       <footer>
@@ -15,9 +30,10 @@ const Footer = () => {
               <div className="col-12 col-md-4 justify">
                 <img
                   className="img-fluid mt-4"
-                  style={{ width: "150px" }}
+                  style={{ width: "150px", cursor: "pointer" }}
                   src={header_logo}
-                  alt=""
+                  alt="Footer Logo"
+                  onClick={handleFooterLogoClick}
                 />
                 <p className="mt-4">
                   We Provide ourselves in our ability to deliver our client’s
@@ -36,8 +52,14 @@ const Footer = () => {
                 <h5>
                   <Link
                     className="nav-link p-0"
-                    style={{ color: "white" }}
+                    onClick={() => handleQuickLinkClick("/")}
+                    activeClass="active"
                     to="/"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    style={{ color: "white" }}
                   >
                     Home
                   </Link>
@@ -45,8 +67,14 @@ const Footer = () => {
                 <h5>
                   <Link
                     className="nav-link p-0"
-                    style={{ color: "white" }}
+                    onClick={() => handleQuickLinkClick("About")}
+                    activeClass="active"
                     to="About"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    style={{ color: "white" }}
                   >
                     About
                   </Link>
@@ -54,8 +82,14 @@ const Footer = () => {
                 <h5>
                   <Link
                     className="nav-link p-0"
-                    style={{ color: "white" }}
+                    onClick={() => handleQuickLinkClick("Services")}
+                    activeClass="active"
                     to="Services"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    style={{ color: "white" }}
                   >
                     Services
                   </Link>
@@ -63,8 +97,14 @@ const Footer = () => {
                 <h5>
                   <Link
                     className="nav-link p-0"
-                    style={{ color: "white" }}
+                    onClick={() => handleQuickLinkClick("Contact")}
+                    activeClass="active"
                     to="Contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    style={{ color: "white" }}
                   >
                     Contact
                   </Link>

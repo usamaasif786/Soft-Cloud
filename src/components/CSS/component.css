@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
   font-size: 16.5px;
   color: #4b4f58;
   max-width: 100%;
@@ -124,30 +125,6 @@ ul {
 .section-2 li {
   margin-left: 16px;
 }
-/* .section-2-0 {
-  border-style: solid;
-  border-width: 2px;
-  padding: 2px;
-  margin: 2px;
-  border-radius: 5px; 
-  margin-left: 15px;
-} */
-/* .section-2-1:hover {
-  border-color: #31b5e9;
-}
-.section-2-2:hover {
-  border-color: #cf2e2e;
-}
-.section-2-3:hover {
-  border-color: #ff6900;
-}
-.section-2-4:hover {
-  border-color: #1d5a92;
-}
-.section-2-5:hover {
-  border-color: #242a56;
-} */
-
 /* ///////////////////  Home - Section 4  ///////////////// */
 .section-4-1 {
   box-shadow: 0 4px 8px 0 rgba(109, 109, 109, 0.1),
@@ -229,13 +206,16 @@ textarea {
 .services-s3-1:hover,
 .services-s2-2:hover {
   box-shadow: 2px 2px 15px 10px #b3b2b263;
-  border-width: 0px;
+  /* border-width: 0px; */
+  transition: transform 0.5s, border-width 0.5s, box-shadow 0.5s;
 }
 .services-s2-1:hover {
   background-color: #85c3db;
   color: white;
   box-shadow: 2px 2px 15px 10px #c6e5f1;
-  border-width: 0px;
+  /* border-width: 0px; */
+  transition: transform 0.5s, border-width 0.5s, box-shadow 0.5s,
+    background-color 0.5s;
 }
 /* ///////////////////   Footer ///////////////// */
 footer {

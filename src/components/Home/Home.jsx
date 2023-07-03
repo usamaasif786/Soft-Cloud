@@ -14,6 +14,12 @@ import { Carousel } from "react-bootstrap";
 function Home() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [counters, setCounters] = useState({
+    counter1: 0,
+    counter2: 0,
+    counter3: 0,
+    counter4: 0,
+  });
 
   const toggleNav = () => {
     setToggleMenu(!toggleMenu);
@@ -35,6 +41,43 @@ function Home() {
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
+
+  ////////////  Counter Funtion ///////
+
+  useEffect(() => {
+    const interval = 4000;
+    const counterTimeouts = [];
+
+    Array.from(document.querySelectorAll(".num")).forEach((valueDisplay) => {
+      const endValue = parseInt(valueDisplay.getAttribute("data-val"));
+      const duration = Math.floor(interval / endValue);
+      let startValue = 0;
+
+      const counterTimeout = setInterval(() => {
+        startValue += 1;
+        setCounters((prevCounters) => ({
+          ...prevCounters,
+          [valueDisplay.id]: startValue,
+        }));
+
+        if (startValue === endValue) {
+          clearInterval(counterTimeout);
+        }
+      }, duration);
+
+      counterTimeouts.push(counterTimeout);
+    });
+
+    const completeCounter = setTimeout(() => {
+      counterTimeouts.forEach((timeout) => clearInterval(timeout));
+    }, interval);
+
+    return () => {
+      counterTimeouts.forEach((timeout) => clearInterval(timeout));
+      clearTimeout(completeCounter);
+    };
+  }, []);
+
   return (
     <>
       <header className="home-header">
@@ -230,19 +273,27 @@ function Home() {
               <h4>Our Company Achievements</h4>
             </div>
             <div className="col-12 col-md mt-4 mb-4 p-2">
-              <h2>57</h2>
+              <h2 className="num" data-val="95" id="counter1">
+                {counters.counter1}
+              </h2>
               <h6>Satisfied Clients</h6>
             </div>
             <div className="col-12 col-md mt-4 mb-4 p-2">
-              <h2>120</h2>
+              <h2 className="num" data-val="37" id="counter2">
+                {counters.counter2}
+              </h2>
               <h6>Projects Completed</h6>
             </div>
             <div className="col-12 col-md mt-4 mb-4 p-2">
-              <h2>3,268</h2>
+              <h2 className="num" data-val="465" id="counter3">
+                {counters.counter3}
+              </h2>
               <h6>Support Hours</h6>
             </div>
             <div className="col-12 col-md mt-4 mb-4 p-2">
-              <h2>7,800</h2>
+              <h2 className="num" data-val="250" id="counter4">
+                {counters.counter4}
+              </h2>
               <h6>Development Hours</h6>
             </div>
           </div>
