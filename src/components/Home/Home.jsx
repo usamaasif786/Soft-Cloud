@@ -121,7 +121,7 @@ function Home() {
                 </ul>
               )}
               <button onClick={toggleNav} className="nav-btn">
-                <i class="bi bi-list"></i>
+                <i className="bi bi-list"></i>
               </button>
             </div>
           </div>
@@ -139,10 +139,7 @@ function Home() {
                   Boost your productivity and streamline development with our
                   cutting-edge React JS solutions. Our software company
                   harnesses the power of React JS to deliver high-performing web
-                  applications that engage users and drive business growth. Join
-                  numerous satisfied clients who have achieved remarkable
-                  success through our innovative and scalable React JS
-                  solutions.
+                  applications that engage users and drive business growth.
                 </p>
               </div>
             </div>

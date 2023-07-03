@@ -76,7 +76,7 @@ function Services() {
                 </ul>
               )}
               <button onClick={toggleNav} className="nav-btn">
-                <i class="bi bi-list"></i>
+                <i className="bi bi-list"></i>
               </button>
             </div>
           </div>
@@ -280,7 +280,7 @@ function Services() {
                   <p className="justify">
                     Having been into the business for over a decade, We love to
                     convert your ideas into reality & full filling your needs by
-                    offering responsive .
+                    offering responsive.
                   </p>
                 </div>
               </div>
@@ -362,7 +362,7 @@ function Services() {
                   <p className="justify">
                     With the advancement in technology, We set our goals by
                     training machines to get better at a task without explicit
-                    programming
+                    programming.
                   </p>
                 </div>
               </div>

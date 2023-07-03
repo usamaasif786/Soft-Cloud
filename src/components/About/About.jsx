@@ -120,7 +120,7 @@ function About() {
                 </ul>
               )}
               <button onClick={toggleNav} className="nav-btn">
-                <i class="bi bi-list"></i>
+                <i className="bi bi-list"></i>
               </button>
             </div>
           </div>

@@ -53,10 +53,10 @@ const Footer = () => {
                   <Link
                     className="nav-link p-0"
                     onClick={() => handleQuickLinkClick("/")}
-                    activeClass="active"
+                    // activeClass="active"
                     to="/"
-                    spy={true}
-                    smooth={true}
+                    // spy={true}
+                    // smooth={true}
                     offset={-70}
                     duration={500}
                     style={{ color: "white" }}
@@ -68,10 +68,10 @@ const Footer = () => {
                   <Link
                     className="nav-link p-0"
                     onClick={() => handleQuickLinkClick("About")}
-                    activeClass="active"
+                    // activeClass="active"
                     to="About"
-                    spy={true}
-                    smooth={true}
+                    // spy={true}
+                    // smooth={true}
                     offset={-70}
                     duration={500}
                     style={{ color: "white" }}
@@ -83,10 +83,10 @@ const Footer = () => {
                   <Link
                     className="nav-link p-0"
                     onClick={() => handleQuickLinkClick("Services")}
-                    activeClass="active"
+                    // activeClass="active"
                     to="Services"
-                    spy={true}
-                    smooth={true}
+                    // spy={true}
+                    // smooth={true}
                     offset={-70}
                     duration={500}
                     style={{ color: "white" }}
@@ -98,10 +98,10 @@ const Footer = () => {
                   <Link
                     className="nav-link p-0"
                     onClick={() => handleQuickLinkClick("Contact")}
-                    activeClass="active"
+                    // activeClass="active"
                     to="Contact"
-                    spy={true}
-                    smooth={true}
+                    // spy={true}
+                    // smooth={true}
                     offset={-70}
                     duration={500}
                     style={{ color: "white" }}
