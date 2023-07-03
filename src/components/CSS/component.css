@@ -219,10 +219,7 @@ textarea {
 }
 /* ///////////////////   Footer ///////////////// */
 footer {
-  background-image: linear-gradient(
-      rgba(83, 83, 83, 0.85),
-      rgba(83, 83, 83, 0.85)
-    ),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.541)),
     url(../Images/footer.jpg);
   background-size: cover;
   background-position: center;

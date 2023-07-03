@@ -45,7 +45,7 @@ const Footer = () => {
               <div className="col-12 col-md-3 col-lg-3 justify">
                 <h2
                   className="mb-4 mt-4"
-                  style={{ color: "rgb(128, 201, 230)" }}
+                  style={{ color: "rgb(128, 201, 230)", fontWeight: "bold" }}
                 >
                   Quick Links
                 </h2>
@@ -114,7 +114,7 @@ const Footer = () => {
               <div className="col-12 col-md-3 col-lg-3 justify">
                 <h2
                   className="mb-4 mt-4"
-                  style={{ color: "rgb(128, 201, 230)" }}
+                  style={{ color: "rgb(128, 201, 230)", fontWeight: "bold" }}
                 >
                   Get In Touch
                 </h2>

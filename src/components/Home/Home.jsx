@@ -232,7 +232,7 @@ function Home() {
               <div className="col-12 col-lg p-2">
                 <div className="row">
                   <div className="col section-2-4 section-2-0">
-                    <h6 style={{ color: "#21A4A8" }}>Data don’t lie</h6>
+                    <h6 style={{ color: "#21A4A8" }}>Data don't lie</h6>
                     <ul className="p-0">
                       <li>Usability testings</li>
                       <li>Review metrics</li>
@@ -302,20 +302,24 @@ function Home() {
           <h3 className="mb-4 text-center">Featured Work</h3>
           <div className="row text-center">
             <div className="col-12 col-md-6">
-              <img
-                className="img-fluid mt-4 mb-4"
-                style={{ cursor: "pointer" }}
-                src={section_5_1}
-                alt=""
-              />
+              <a href="https://eswaranshop.netlify.app/">
+                <img
+                  className="img-fluid mt-4 mb-4"
+                  style={{ cursor: "pointer", borderRadius: "10px" }}
+                  src={section_5_1}
+                  alt=""
+                />
+              </a>
             </div>
             <div className="col-12 col-md-6">
-              <img
-                className="img-fluid mt-4 mb-4"
-                style={{ cursor: "pointer" }}
-                src={section_5_2}
-                alt=""
-              />
+              <a href="https://eswaranshop.netlify.app/">
+                <img
+                  className="img-fluid mt-4 mb-4"
+                  style={{ cursor: "pointer", borderRadius: "10px" }}
+                  src={section_5_2}
+                  alt=""
+                />
+              </a>
             </div>
           </div>
         </div>
