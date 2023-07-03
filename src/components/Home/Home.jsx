@@ -189,11 +189,11 @@ function Home() {
         </div>
         <div className="row section-2-1 mt-4 mb-4 d-flex justify-content-center">
           <div className="col-12 col-md-7">
-            <div className="row" style={{ marginLeft: "" }}>
+            <div className="row">
               <div className="col-12 col-lg p-2">
                 <div className="row">
                   <div className="col section-2-1 section-2-0">
-                    <h6 style={{ color: "#31b5e9" }}>Meet the user</h6>
+                    <h6 style={{ color: "#30B4E9" }}>Meet the user</h6>
                     <ul className="p-0">
                       <li>User demographics</li>
                       <li>Define user goals</li>
@@ -206,7 +206,7 @@ function Home() {
               <div className="col-12 col-lg p-2">
                 <div className="row">
                   <div className="col section-2-2 section-2-0">
-                    <h6 style={{ color: "#cf2e2e" }}>Be the user</h6>
+                    <h6 style={{ color: "#F05F3D" }}>Be the user</h6>
                     <ul className="p-0">
                       <li>User personas</li>
                       <li>User scenarios</li>
@@ -219,7 +219,7 @@ function Home() {
               <div className="col-12 col-lg p-2">
                 <div className="row">
                   <div className="col section-2-3 section-2-0">
-                    <h6 style={{ color: "#ff6900" }}>Make it simple</h6>
+                    <h6 style={{ color: "#F79B30" }}>Make it simple</h6>
                     <ul className="p-0">
                       <li>Wire-frames</li>
                       <li>Mood-board</li>
@@ -232,9 +232,7 @@ function Home() {
               <div className="col-12 col-lg p-2">
                 <div className="row">
                   <div className="col section-2-4 section-2-0">
-                    <h6 style={{ color: " rgb(39 175 156)" }}>
-                      Data don’t lie
-                    </h6>
+                    <h6 style={{ color: "#21A4A8" }}>Data don’t lie</h6>
                     <ul className="p-0">
                       <li>Usability testings</li>
                       <li>Review metrics</li>
@@ -247,7 +245,7 @@ function Home() {
               <div className="col-12 col-lg p-2">
                 <div className="row">
                   <div className="col section-2-5 section-2-0">
-                    <h6 style={{ color: "#242a56" }}>Stick to the design</h6>
+                    <h6 style={{ color: "#425674" }}>Stick the design</h6>
                     <ul className="p-0">
                       <li>Usability testings</li>
                       <li>Review metrics</li>
