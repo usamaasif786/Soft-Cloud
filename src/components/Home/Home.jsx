@@ -318,7 +318,7 @@ function Home() {
                 away from hearing you, Do not wait{" "}
               </p>
               <p className="mt-4 mb-4 d-none d-md-block">
-                Email: <span className="bold">usamaasif885@gmail.com</span>
+                Email: <span className="bold">engusamaasif885@gmail.com</span>
               </p>
               <h5>Reviewed on</h5>
               <img

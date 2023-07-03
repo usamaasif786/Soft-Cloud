@@ -214,35 +214,30 @@ function About() {
         <div className="row d-flex justify-content-center">
           <div className="col-11 col-md-10 mt-4">
             <div className="row d-flex justify-content-between">
-              <div className="col-6 col-md p-2" style={{ height: "100%" }}>
+              <div className="col-6 col-md p-2 about-photo">
                 <img className="img-fluid" src={about_s4_1} alt="" />
               </div>
-              <div className="col-6 col-md p-2" style={{ maxHeight: "100%" }}>
-                <img
-                  className="img-fluid"
-                  style={{ maxHeight: "100%" }}
-                  src={about_s4_2}
-                  alt=""
-                />
+              <div className="col-6 col-md p-2 about-photo">
+                <img className="img-fluid" src={about_s4_2} alt="" />
               </div>
-              <div className="col-6 col-md p-2">
+              <div className="col-6 col-md p-2 about-photo">
                 <img className="img-fluid" src={about_s4_3} alt="" />
               </div>
-              <div className="col-6 col-md p-2">
+              <div className="col-6 col-md p-2 about-photo">
                 <img className="img-fluid" src={about_s4_4} alt="" />
               </div>
             </div>
             <div className="row d-flex justify-content-between">
-              <div className="col-6 col-md p-2">
+              <div className="col-6 col-md p-2 about-photo">
                 <img className="img-fluid" src={about_s4_5} alt="" />
               </div>
-              <div className="col-6 col-md p-2">
+              <div className="col-6 col-md p-2 about-photo">
                 <img className="img-fluid" src={about_s4_6} alt="" />
               </div>
-              <div className="col-6 col-md p-2">
+              <div className="col-6 col-md p-2 about-photo">
                 <img className="img-fluid" src={about_s4_7} alt="" />
               </div>
-              <div className="col-6 col-md p-2">
+              <div className="col-6 col-md p-2 about-photo">
                 <img className="img-fluid" src={about_s4_8} alt="" />
               </div>
             </div>

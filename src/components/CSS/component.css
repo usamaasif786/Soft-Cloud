@@ -188,6 +188,32 @@ textarea {
 .about-s2-1 li {
   font-size: 18px;
 }
+
+.about-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.about-photo img {
+  opacity: 0.85;
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.about-photo img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
 /* ///////////////////  Services - Section 1 ///////////////// */
 .services-s1-1,
 .services-s2-1,
