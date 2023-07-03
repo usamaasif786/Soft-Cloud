@@ -130,7 +130,7 @@ function About() {
             <div className="row mt-4 ">
               <div className="col-11 col-md-8">
                 <h1>About Us</h1>
-                <p className="mt-4 p-1">
+                <p className="mt-4 p-1" style={{ textAlign: "justify" }}>
                   We pride ourselves in our ability to deliver our client’s
                   vision. Customer satisfaction is our number one priority. We
                   understand that our work is our expression to the outside

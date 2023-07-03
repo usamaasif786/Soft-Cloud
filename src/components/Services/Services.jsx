@@ -86,7 +86,7 @@ function Services() {
             <div className="row mt-4 ">
               <div className="col-11 col-md-8">
                 <h1>Services</h1>
-                <p className="mt-4 p-1">
+                <p className="mt-4 p-1" style={{ textAlign: "justify" }}>
                   The software solutions developed by our company are numerously
                   recognized for usability and innovative features.
                 </p>

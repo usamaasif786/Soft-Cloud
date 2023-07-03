@@ -135,7 +135,7 @@ function Home() {
                   <br />
                   to be creative
                 </h1>
-                <p className="mt-4">
+                <p className="mt-4" style={{ textAlign: "justify" }}>
                   Boost your productivity and streamline development with our
                   cutting-edge React JS solutions. Our software company
                   harnesses the power of React JS to deliver high-performing web
@@ -154,7 +154,7 @@ function Home() {
           <div className="row d-flex justify-content-between ">
             <div className="col-12 col-md-5 justify">
               <h4 className="black">Why Choose Us?</h4>
-              <p className="mt-4 ">
+              <p className="mt-4" style={{ textAlign: "justify" }}>
                 We are a full-service software house. Our clients ranges from
                 public and private sectors including start-ups. What separates
                 us from others is the flexibility of hiring us as a team of

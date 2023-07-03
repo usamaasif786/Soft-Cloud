@@ -73,7 +73,7 @@ function Contact() {
             <div className="row mt-4 ">
               <div className="col-11 col-md-8">
                 <h1>Contact Us</h1>
-                <p className="mt-4">
+                <p className="mt-4" style={{ textAlign: "justify" }}>
                   We provide a wide array of professional and efficient software
                   solutions that result in extraordinary digital experiences.
                 </p>
