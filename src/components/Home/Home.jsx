@@ -312,7 +312,7 @@ function Home() {
               </a>
             </div>
             <div className="col-12 col-md-6">
-              <a href="https://eswaranshop.netlify.app/">
+              <a href="https://pakbikes.netlify.app/">
                 <img
                   className="img-fluid mt-4 mb-4"
                   style={{ cursor: "pointer", borderRadius: "10px" }}
