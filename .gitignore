@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/.googleKey.js
+./googleKey.js
 /.pnp
 .pnp.js
 
