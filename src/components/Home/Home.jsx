@@ -4,6 +4,8 @@ import section_5_1 from "../Images/section_5_1.png";
 import section_5_2 from "../Images/section_5_2.png";
 import section_6_1 from "../Images/section_6_1.png";
 import section_6_2 from "../Images/section_6_2.png";
+import ContactMenu from "../Contact-Menu/Contact_Menu";
+
 import "../CSS/component.css";
 
 import React, { useState, useEffect } from "react";
@@ -331,38 +333,41 @@ function Home() {
         <div className="col-10 p-4 mt-4 mb-4">
           <div className="row d-flex justify-content-between">
             <div className="col-12 col-md-6 section-6-1">
-              <h4>Contact Us</h4>
-              <input
-                type="text"
-                className="form-control mt-4"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="Your Name"
-              />
-              <input
-                type="email"
-                className="form-control mt-4"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="Your Email"
-              />
-              <input
-                type="number"
-                className="form-control mt-4"
-                id="exampleInputEmail1"
-                placeholder="Your Phone Number"
-              />
-              <textarea
-                className="mt-4"
-                name="message"
-                placeholder="Your message"
-              ></textarea>
-              <button className="btn btn-danger mt-4 mb-4 p-3">
-                SUBMIT REQUEST
-              </button>
+              <h4 className="mb-4">Contact Us</h4>
+              <ContactMenu />
+              {/* <div>
+                <input
+                  type="text"
+                  className="form-control mt-4"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Your Name"
+                />
+                <input
+                  type="email"
+                  className="form-control mt-4"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Your Email"
+                />
+                <input
+                  type="number"
+                  className="form-control mt-4"
+                  id="exampleInputEmail1"
+                  placeholder="Your Phone Number"
+                />
+                <textarea
+                  className="mt-4"
+                  name="message"
+                  placeholder="Your message"
+                ></textarea>
+                <button className="btn btn-danger mt-4 mb-4 p-3">
+                  SUBMIT REQUEST
+                </button>
+              </div> */}
             </div>
             <div className="col-5 section-6-2">
-              <h4 className="d-none d-md-block">Request a Quote</h4>
+              <h4 className="d-none d-md-block mb-4">Request a Quote</h4>
               <p className="d-none d-md-block">
                 Would you like to start a project with us? We are just one click
                 away from hearing you, Do not wait{" "}
